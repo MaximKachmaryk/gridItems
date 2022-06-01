@@ -8,6 +8,6 @@
     display: grid;
     width: 1140px;
     margin: 82px auto 0;
-    grid-template-columns: repeat(4, 240px);
+    grid-template-columns: repeat(4, minmax(260px, auto));
     gap: 50px;
 }
